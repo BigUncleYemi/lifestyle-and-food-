@@ -1,0 +1,99 @@
+@media screen and (min-width: 480px) {
+    /*header*/
+    header {
+      padding: 20px 5% 40px;
+      border-bottom: 5px solid #2b7;
+    }
+    header >section{
+      float: left;
+      padding: 0px;
+    }
+    /*nav*/
+    nav{
+        color: ghostwhite;
+        text-transform: uppercase;
+        text-align: right;
+        padding-top: 6%;
+    }
+    .menu{
+      display: inline-block;
+      background-color: lightgreen;
+    }
+    ul > .menu{
+      padding: 11%
+    }
+    /*section features */
+    ul {
+      display: inline-flex;
+    }
+    div > li{
+      margin: 2px 3% 4px 3%;
+    }
+    .writer > ul{
+        display: inline-flex;
+    }
+    .sub{
+        padding: 4%;
+    }
+}
+@media screen and (min-width: 800px) {
+    header{
+        display: inline-flex;
+        border-bottom: 0px ;
+        max-width: inherit;
+        border-bottom: 5px solid #2b7;
+
+    }
+    header >section{
+        text-align: left;
+        font-size: 1.3em;
+        padding: 1% 9% 1% 0px;
+        padding-top: 1%;
+        float: left;
+        width: 45%;
+    }
+    /*nav*/
+    nav {
+      color: white;
+      font-size: 13px;
+      text-align: right;
+      float: right;
+      width: 45%;
+    }
+    .menu{
+      display: inline;
+      background-color: #fff;
+    }
+    .dropdown-menu{
+      display: inline-flex;
+      background-color: #fff;
+    }
+    .dropdown-menu > li{
+      padding: 0px 10px;
+      color: #2b5;
+      background-color: white;
+    }
+    .menu1 > li{
+      padding: 0px 10px;
+      color: #2b5;
+      background-color: white ;
+    }
+    .menu:hover .dropdown-menu{
+      display: inline-flex;
+    }
+    .dropdown-menu1{
+      width: 90px;
+    }
+    nav a:hover{
+      background-color: White ;
+      color: #2b9;
+      padding: 0%;
+    }
+    /*section features */
+    ul > div{
+      display: inline-flex;
+    }
+    .writer > ul{
+      padding: 1% 7%;
+    }
+}

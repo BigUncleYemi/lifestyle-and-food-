@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+header > section {
+    color: #2b572b;
+    padding: 5%;
+    text-align: center;
+}
+/*nav*/
+nav{
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-align: center;
+}
+ul > .menu{
+  list-style-type: none;
+  padding: 3%
+}
+li{
+  padding: 2%
+}
+.menu{
+  display: block;
+  background-color: lightgreen;
+}
+.dropdown-menu{
+  display: none;
+  background-color: #2b9;
+}
+.menu:hover .dropdown-menu{
+    display: block;
+}
+.menu1{
+  display: block;
+}
+.dropdown-menu1{
+  display: none;
+  background-color: #2b5;
+  padding: 5%;
+}
+.menu1:hover .dropdown-menu1{
+    display: block;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+nav a:hover{
+  background-color: White ;
+  color: #2b9;
+  padding: 2%;
+}
+/*content welcome */
+.content{
+    background-color: rgba(132, 226, 132, 0.2);
+}
+section > .welcome{
+  padding: 3%;
+  text-align: center;
+}
+.welcome > h2{
+  font-family: "Yu Gothic", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.welcome > p{
+  font-family: Calibri;
+  font-size: 14px;
+}
+/*content features*/
+.feature > div{
+  background-color: rgba(132, 226, 132, 0.1);
+  text-align: center;
+  padding: 3%;
+}
+li > h2{
+  font-family: "Yu Gothic", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+li > p{
+  font-family: Calibri;
+  font-size: 13px;
+  font-weight: 500;
+}
+/*content blog*/
+.blog > h2{
+  font-family: "Yu Gothic", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3%;
+}
+/* writer */
+.writer{
+    background-color: rgba(154, 231, 159, 0.72);
+    color: #2b572b;
+    padding: 9%;
+    text-align: center;
+}
+li{
+  list-style-type: none;
+
+}
+img{
+    border-radius: 100%;
+    padding: 1%;
+}
+/* subscription */
+.sub{
+    padding: 9%;
+    background-color: #ffffff;
+    color: #2b572b;
+    text-align: center;
+}
+button{
+  padding: 2%;
+  background: white ;
+  border: 1px solid #2b572b;
+  color: #2b572b;
+}
+button:hover{
+  background: #2b572b;
+  color: white;
+}
+  /* footer*/
+footer{
+    padding: 7%;
+    background-color: #84e284;
+    color: whitesmoke;
+    text-align: center;
+}
+span > a{
+    display:inline;
+    text-decoration: none;
+    color: whitesmoke;
+}
